@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./Imges/sky-blue-background-klsgg0p0wj4pd0cg.jpg);
+    height: 100vh;
+}
+
+.container {
+    width: 380px;
+    height: 500px;
+    margin-top: 7%;
+    background-image: url(./Imges/3c29ffc6379493eb3ec6901ff4fc85af.jpg);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.stopwatch {
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+#result {
+    margin-top: 11%;
+    margin-left: 21%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #00b7ff;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#result span {
+    position: relative;
+    top: 70px;
+    font-size: 38px;
+    color: white;
+}
+
+.btns {
+    margin-top: 14%;
+}
+
+.btns button {
+    border: none;
+    color: black;
+    background-color: #00b7ff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transition: 0.5s;
+    width: 100px;
+    height: 40px;
+}
+
+.btns button:hover {
+    color: black;
+    transform: translateY(-8px);
+    cursor: pointer;
+    transition: transform 120ms;
+    background-color: rgb(228, 80, 80);
+}
